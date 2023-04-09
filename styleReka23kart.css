@@ -1,7 +1,8 @@
 .subcontent{
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 50vw;
+    height: fit-content;
     padding: 2em;
     box-shadow: -2px 4px 0 0 #c62700;
     background: #f81753e0;
@@ -10,12 +11,11 @@
     justify-content: center;
 }
 
-.kartIMG{
-   background-image: url("./assets/kart.jpg");
-   width: 75vw;
-   height: 60vh;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: contain;
+
+@media only screen and (max-width: 768px) {
+    .subcontent{
+        width: 75vw;
+    }
 
 }
+

@@ -1,7 +1,7 @@
 .subcontent{
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 50vw;
     height: fit-content;
     padding: 2em;
     box-shadow: -2px 4px 0 0 #c62700;
@@ -11,24 +11,26 @@
     justify-content: center;
 }
 .wrapper_opptak_IMG{
-    width: 69vw;
+    width: 24vw;
+    
     height: auto;
     overflow: hidden;
     border-radius: 4px;
 }
 .opptak_IMG{
-    width: 70vw;
+    width: 25vw;
+    
     height: auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     .subcontent{
-        width: 50vw;
+        width: 75vw;
     }
     .wrapper_opptak_IMG{
-        width: 24vw;
+        width: 69vw;
     }
     .opptak_IMG{
-        width: 25vw;
+        width: 70vw;
     }
 }
