@@ -1,0 +1,34 @@
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: fit-content;
+    padding: 2em;
+    box-shadow: -2px 4px 0 0 #c62700;
+    background: #f81753e0;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper_opptak_IMG{
+    width: 69vw;
+    height: auto;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.opptak_IMG{
+    width: 70vw;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .subcontent{
+        width: 50vw;
+    }
+    .wrapper_opptak_IMG{
+        width: 24vw;
+    }
+    .opptak_IMG{
+        width: 25vw;
+    }
+}

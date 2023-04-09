@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./global.css">
+        <link rel="stylesheet" href="./styleArkiv22.css">
+        <link rel="icon" type="image/x-icon" href="./assets/rekafestival.png">
+    </head>
+    <body>
+         
+        <!-- index.html  -->
+        <a href="index.html"> 
+            <img src="./assets/REKA23_logo.png" class="logo-image">
+        </a>
+        <nav class="navbar" id="navbar">
+            <input type="checkbox" class="nav-check" id="nav-check">
+            <label class="nav-ikon" for="nav-check"></label>
+            <ul class="nav-ul">
+                <li  class="nav-button">
+                    <a href="program23.html">
+                        Program
+                    </a>
+                </li>
+                <li class="nav-button">
+                    <a href="kart23.html">
+                        Kart
+                    </a>
+                </li>
+                <!-- <li class="nav-button">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        Annet
+                    </a>
+                </li> -->
+                <li class="nav-button">
+                    <a href="arkiv.html">
+                        Arkiv
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <article class="content">
+            <h1>
+                Arkiv REKA 2022
+            </h1>
+            <section class="subcontent">
+                <img src="./assets/reka22/program/c.png" class="programFL22Img">
+            </section>
+            <section class="subcontent">
+                <img src="./assets/reka22/program/a.png" class="programF22Img">
+            </section>
+            <section class="subcontent">
+                <img src="./assets/reka22/program/b.png" class="programL22Img">
+            </section>
+            <h3>Camp REKA 2022</h3>
+            <section class="subcontent">
+                <img src="./assets/reka22/kart22.jpg" class="kart22Img">
+            </section>
+
+            <h3>Merch 2022</h3>
+            <section class="subcontent">
+                <img src="./assets/reka22/rema_merch.png" class="remaMerchImg">
+            </section>
+        </article>
+    </body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+            }
+        </script>
+</html>

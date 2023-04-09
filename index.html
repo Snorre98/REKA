@@ -1,53 +1,42 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        
-        <div class="header">
-            <a href="/">
-                <div class="logo" style="display: flex;">
-                    <div class="image"></div>
-                    <div id="logo-year">20</div>
-                </div>
-            </a>
-            <div class="buttons">
-                <a href="/">
-                    <div class="header-button">Program</div>
-                </a>
-                <a href="/kart.html">
-                    <div class="header-button">Kart</div>
-                </a>
-                <a href="/butikk.html">
-                    <div class="header-button">Nettbutikk</div>
-                </a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <div class="header-button">Annet</div>
-                </a>
-            </div>
-            <div style="flex-basis: 100%"></div>
-            <div class="mg-logo"></div>
+  <head>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./styleIndex.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/rekafestival.png">
+  </head>
+  <body>
+    <!-- class="logo-image" -->
+    <a href="index.html">
+      <img src="./assets/REKA23_logo.png" class="logo-image" />
+    </a>
+    <nav class="navbar" id="navbar">
+      <input type="checkbox" class="nav-check" id="nav-check" />
+      <label class="nav-ikon" for="nav-check"></label>
+      <ul class="nav-ul">
+        <li class="nav-button">
+          <a href="program23.html"> Program </a>
+        </li>
+        <li class="nav-button">
+          <a href="kart23.html"> Kart </a>
+        </li>
+        <!-- <li class="nav-button">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Annet </a>
+        </li> -->
+        <li class="nav-button">
+          <a href="arkiv.html"> Arkiv </a>
+        </li>
+      </ul>
+    </nav>
+    <article class="content">
+      <h1>REKA-23</h1>
+      <h3> 18. - 20. August</h3>
+      <section class="subcontent">
+        <!-- <p>Vi har opptak!</p> -->
+        <div class="wrapper_opptak_IMG">
+          <img src ="assets/REKA_HarOpptak.png" class="opptak_IMG">
         </div>
-        <div class="content">
-            <h2>
-                REKA 22
-            </h2>
-            <p>Norges største kulturfestival!</p>
-            <h1>
-                Program
-            </h1>
-            <div class="program-container">
-                <div class="program_1"></div>
-                <div class="program_2"></div>
-                <div class="program_3"></div>
-            </div>
-            <h1>Kart</h1>
-            <div class="content-image kart"></div>
-            <h1>Nettbutikk</h1>
-            <div class="content-image butikk"></div>
-        </div>
-
-
-        <script src="./script.js"></script>
-    </body>
+        <a href="https://forms.gle/TLxbGbZ5nJ8bapo38" class="link-button">Søk her!</a>
+      </section>
+    </article>
+  </body>
 </html>
