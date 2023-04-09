@@ -40,6 +40,8 @@ p {
 }
 
 .logo-image {
+    top:0;
+    left:0;
     display: inline;
     position: fixed;
     width: 128px;
