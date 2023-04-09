@@ -182,6 +182,7 @@ p {
 
     .nav-ikon{
         display: inline;
+        position: fixed;
     }
 
     .nav-ul {
