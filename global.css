@@ -2,12 +2,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffe0a3;
     margin: 0;
+    padding:0;
     background-image: url("./assets/REKA23_bakgrunn_mobil.png");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 100%;
     background-color: #FFE0A3;
 }
 
@@ -168,7 +168,7 @@ p {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (min-width: 600px) {
     body {
 
         background-image: url("./assets/REKA23_bakgrunn.png");
