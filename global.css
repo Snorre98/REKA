@@ -4,8 +4,7 @@ body {
     margin: 0;
     padding:0;
     background-image: url("./assets/REKA23_bakgrunn.png");
-    
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +43,8 @@ p {
     display: block;
     position: fixed;
     position: -webkit-sticky;
-    width: 82px;
+    /* width: 82px; */
+    width: 128px;
     height: auto;
     margin-top: 0.75em;
     margin-left: 1em;
@@ -75,6 +75,7 @@ p {
 .nav-ikon {
     display: none;
     position: fixed;
+    position: -webkit-sticky;
     top: 0;
     right: 0;
     margin: 0.75em;
@@ -106,14 +107,7 @@ p {
     text-align: center;
     margin: 0.75em;
 }
-/* .nav-ul {
-    display: none;
-    flex-direction: column;
-    position: fixed;
-    list-style-type: none;
-    margin-top: 5em;
-    padding: 0.2em;
-} */
+
 .nav-ul {
     position: fixed;
     display: flex;
@@ -180,10 +174,9 @@ p {
 
 @media only screen and (max-width: 768px) {
     body {
-
         background-image: url("./assets/REKA23_bakgrunn_mobil.png");
-
     }
+
     .navbar {
         display: flex;
         align-items: right;
@@ -191,31 +184,27 @@ p {
         text-align: center;
         z-index: 999;
     }
+
     .nav-ikon{
         display: block;
     }
 
-    /* .nav-ul {
-        position: fixed;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 0.2em;
-    } */
     .nav-ul {
         display: none;
         top:0;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         list-style-type: none;
         padding: 0.2em;
+
     }
+
     .nav-check:checked~.nav-ul {
     display: flex;
-}
+    }
+
     .logo-image {
-        width: 128px;
+        width: 82px;
     }
 
 }

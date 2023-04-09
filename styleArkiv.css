@@ -44,6 +44,10 @@
     text-align: left;
 }
 
+.cardWrapper:hover{
+    transform: scale(1.01);
+}
+
 #Reka2022{
     background-image: url('./assets/reka22/Reka2022CardImg.png');
 }
@@ -54,9 +58,9 @@
 #Reka1912{
     background-image: url("./assets/Reka1912.jpg");
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     .cardWrapper:hover{
-        transform: scale(1.01);
+        transform: none;
     }
 
 }
