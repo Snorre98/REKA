@@ -168,7 +168,7 @@ p {
     transform: scale(1.1);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 374px) {
     body {
 
         background-image: url("./assets/REKA23_bakgrunn.png");
