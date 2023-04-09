@@ -1,0 +1,54 @@
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    height: fit-content;
+    padding: 2em;
+    box-shadow: -2px 4px 0 0 #c62700;
+    background: #f81753e0;
+    border-radius: 5px;
+    overflow: auto;
+    margin:1em;
+
+}
+.programFL22Img, .programF22Img, .programL22Img {
+    max-width: 70vw;
+    height: auto;
+}
+.kart21Img{
+    max-width: 70vw;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .subcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        height: fit-content;
+        padding: 2em;
+        box-shadow: -2px 4px 0 0 #c62700;
+        background: #f81753e0;
+        border-radius: 5px;
+        overflow: auto;
+        margin:1em;
+    
+    }
+    .programFL22Img, .programF22Img, .programL22Img {
+        max-width: 50vw;
+        height: auto;
+    }
+    .kart22Img{
+        max-width: 50vw;
+        height: auto;
+    }
+    
+    .remaMerchImg{
+        max-width: 50vw;
+        height: auto;
+    }
+}

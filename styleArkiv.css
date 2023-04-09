@@ -1,0 +1,62 @@
+.subcontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 75vw;
+    height: fit-content;
+    padding: 2em;
+    box-shadow: -2px 4px 0 0 #c62700;
+    background: #f81753e0;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.cardWrapper{
+    background: #c62800da;
+    overflow: hidden;
+    border-radius: 4px;
+    margin:5px;
+    padding:0.5em;
+    min-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.250), 0 6px 20px 0 rgba(255, 255, 255, 0.250);
+}
+
+.cardImgWrapper{
+    overflow: hidden;
+    height: 175px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffe0a3;
+}
+.cardTitle{
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffe0a3;
+   
+}
+.cardParagraph{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffe0a3;
+    text-align: left;
+}
+
+#Reka2022{
+    background-image: url('./assets/reka22/Reka2022CardImg.png');
+}
+#Reka2021{
+    background-image: url('./assets/rekafestival.png');
+}
+
+#Reka1912{
+    background-image: url("./assets/Reka1912.jpg");
+}
+@media only screen and (min-width: 768px) {
+    .cardWrapper:hover{
+        transform: scale(1.01);
+    }
+
+}
