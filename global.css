@@ -178,7 +178,7 @@ p {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     body {
 
         background-image: url("./assets/REKA23_bakgrunn_mobil.png");
