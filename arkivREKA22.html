@@ -12,13 +12,16 @@
     <body>
          
         <!-- index.html  -->
-        <a href="index.html"> 
+        <!-- <a href="index.html"> 
             <img src="./assets/REKA23_logo.png" class="logo-image">
-        </a>
+        </a> -->
         <nav class="navbar" id="navbar">
-            <input type="checkbox" class="nav-check" id="nav-check">
+            <a href="index.html"> 
+                <img src="./assets/REKA23_logo.png" class="logo-image">
+            </a>
+            <input type="checkbox" class="nav-check">
             <label class="nav-ikon" for="nav-check"></label>
-            <ul class="nav-ul">
+            <ul class="nav-ul" id="nav-ul">
                 <li  class="nav-button">
                     <a href="program23.html">
                         Program
@@ -36,7 +39,7 @@
                 </li> -->
                 <li class="nav-button">
                     <a href="arkiv.html">
-                        Arkiv
+                        Hype!
                     </a>
                 </li>
             </ul>
@@ -67,16 +70,4 @@
 
         </article>
     </body>
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-          } else {
-            document.getElementById("navbar").style.top = "-50px";
-          }
-          prevScrollpos = currentScrollPos;
-            }
-        </script>
 </html>
