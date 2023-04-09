@@ -42,7 +42,7 @@ p {
 .logo-image {
     display: inline;
     position: fixed;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     /* width: 82px; */
     width: 128px;
     height: auto;
@@ -75,7 +75,7 @@ p {
 .nav-ikon {
     display: none;
     position: fixed;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     top: 0;
     right: 0;
     margin: 0.75em;
