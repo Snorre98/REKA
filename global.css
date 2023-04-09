@@ -43,6 +43,7 @@ p {
 .logo-image {
     display: block;
     position: fixed;
+    position: -webkit-sticky;
     width: 82px;
     height: auto;
     margin-top: 0.75em;
@@ -177,7 +178,7 @@ p {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
     body {
 
         background-image: url("./assets/REKA23_bakgrunn_mobil.png");
