@@ -42,15 +42,10 @@ p {
 .logo-image {
     display: inline;
     position: fixed;
-    /* position: -webkit-sticky; */
-    /* width: 82px; */
     width: 128px;
     height: auto;
     margin-top: 0.75em;
     margin-left: 1em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     animation-name: logoImgPuls;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -187,6 +182,7 @@ p {
 
     .nav-ikon{
         display: inline;
+        position: fixed;
     }
 
     .nav-ul {
@@ -204,6 +200,8 @@ p {
     }
 
     .logo-image {
+        display: inline;
+        position: fixed;
         width: 82px;
     }
 
