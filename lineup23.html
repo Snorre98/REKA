@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="REKA studentfestival">
+        <meta name="keywords" content="REKA MARKEDSFØRINGSGJENGEN MG SAMFUNDET">
+        <meta name="author" content="Snorre Sæther">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./global.css">
+        <link rel="stylesheet" href="./styleLineup1.css" id="stylesheet1">
+        <link rel="stylesheet" href="./styleLineup2.css" id="stylesheet2" disabled>
+
+        <link rel="icon" type="image/x-icon" href="./assets/rekafestival.png">
+
+        <link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Erica One' rel='stylesheet'>
+    </head>
+    <!-- <body>
+        <a href="index.html"> 
+            <img src="./assets/REKA23_logo.png" class="logo-image">
+        </a> -->
+        <nav class="navbar">
+            <a href="index.html"> 
+                <img src="./assets/REKA23_logo.png" class="logo-image">
+            </a>
+            <input type="checkbox" class="nav-check" id="nav-check">
+            <label class="nav-ikon" for="nav-check"></label>
+            <ul class="nav-ul">
+                <li  class="nav-button">
+                    <a href="program23.html">
+                        Program
+                    </a>
+                </li>
+                <li class="nav-button">
+                    <a href="kart23.html">
+                        Kart
+                    </a>
+                </li>
+                <!-- <li class="nav-button">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        Annet
+                    </a>
+                </li> -->
+                <li class="nav-button">
+                    <a href="arkiv.html">
+                        Hype!
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <article class="content">
+            <h1>
+                Line-Up
+            </h1>
+            <section class="subcontent">
+                <div class="switch_wrap">
+                <label class="switch">
+                    <input type="checkbox" id="switch-styles">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div class="lineup_wrapper">
+                    <p class="lineup_text1">Pling Floyd</p>
+                    <p class="lineup_text2">Loopodin</å>
+                    <p class="lineup_text1">Revy</p>
+                    <p class="lineup_text2">Olavs visesangere</p>
+                    <p class="lineup_text1">Ravecave</p>
+                    <p class="lineup_text2">Klassisk Konsert</p>
+                    <p class="lineup_text1">NBBjr</p>
+                    <p class="lineup_text2">Los Grepfrutas</p>
+                   
+
+                </div>
+            </section>
+        </article>
+    </body>
+    <script>
+    var switchStylesheetCheckbox = document.getElementById('switch-styles');
+    switchStylesheetCheckbox.addEventListener('change', function() {
+        var stylesheet1 = document.getElementById('stylesheet1');
+        var stylesheet2 = document.getElementById('stylesheet2');
+
+        if (switchStylesheetCheckbox.checked) {
+            stylesheet1.disabled = true;
+            stylesheet2.disabled = false;
+        } else {
+        stylesheet1.disabled = false;
+        stylesheet2.disabled = true;
+        }
+    });
+    </script>
+</html>
