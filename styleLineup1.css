@@ -35,7 +35,9 @@
     margin:10px;
     border:3px solid white;
     display: block;
+    /* font-family: 'Bevan'; */
     font-family: 'Bevan';
+    
     font-size: 3em;
 
     font-weight:bolder;
@@ -70,7 +72,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #ff6923;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -82,7 +84,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #ffe0a3;;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -104,10 +106,16 @@
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
+
+
   }
   
   .slider.round:before {
     border-radius: 50%;
+    background-image: url('./assets/shrimp_emoji.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 @media only screen and (max-width: 768px) {
     .subcontent{
