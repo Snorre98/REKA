@@ -10,18 +10,13 @@
     align-items: center;
     justify-content: center;
 }
-.wrapper_opptak_IMG{
-    width: 24vw;
-    
-    height: auto;
-    overflow: hidden;
-    border-radius: 4px;
-}
-.opptak_IMG{
-    width: 25vw;
-    
+
+.home_group_img{
+    width: 50vw;
     height: auto;
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .subcontent{
@@ -30,7 +25,5 @@
     .wrapper_opptak_IMG{
         width: 69vw;
     }
-    .opptak_IMG{
-        width: 70vw;
-    }
+
 }
